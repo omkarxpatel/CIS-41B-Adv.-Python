@@ -1,0 +1,9 @@
+sqlite> SELECT * FROM Database;≈
+
+id | name  | photo        | html
+------------------------------------------
+1  | John  | john.jpg     | <html><body> 
+2  | Jane  | jane.jpg     | <html><body> 
+3  | Mark  | mark.jpg     | <html><body> 
+4  | Sarah | sarah.jpg    | <html><body> 
+5  | Alex  | alex.jpg     | <html><body> 

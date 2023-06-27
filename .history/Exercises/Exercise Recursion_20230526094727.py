@@ -1,0 +1,15 @@
+def fileList():
+    return ['myfile.txt', 'myfile2.txt', 'my/my']
+
+def printFiles(file_list):
+    for file in file_list:
+        if '.' in file:
+            print(file)
+            
+        else:
+            sub_folder_files = fileList()
+            sub_folder_files = [file + '/' + sub_file for sub_file in sub_folder_files]
+            printFiles(sub_folder_files)
+
+file_list = fileList()
+printFiles(file_list)
